@@ -4,7 +4,7 @@
   "description": "Making a non itreable object iterable.",
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
-    "test-coverage:html": "NODE_ENV=test lab -I -r html -o ./coverage/coverage.html",
+    "test-coverage:html": "NODE_ENV=test lab -r html -o ./coverage/coverage.html",
     "test": "npm run lint && NODE_ENV=test lab -v -t 90 -I  && npm run test-coverage:html"
   },
   "repository": {
