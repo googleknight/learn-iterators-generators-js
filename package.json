@@ -1,0 +1,28 @@
+{
+  "name": "learn-iterators-generators",
+  "version": "1.0.0",
+  "description": "Making a non itreable object iterable.",
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "test-coverage:html": "NODE_ENV=test lab -I -r html -o ./coverage/coverage.html",
+    "test": "npm run lint && NODE_ENV=test lab -v -t 90 -I  && npm run test-coverage:html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googleknight/learn-iterators-generators-js.git"
+  },
+  "author": "Shubham Mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/googleknight/learn-iterators-generators-js/issues"
+  },
+  "homepage": "https://github.com/googleknight/learn-iterators-generators-js#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lab": "^18.0.0"
+  }
+}
