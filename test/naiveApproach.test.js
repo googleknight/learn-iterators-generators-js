@@ -8,7 +8,8 @@ const { expect } = Chai;
 
 lab.experiment('Testing getAuthors', () => {
   lab.test('should successfully returns all authors', () => {
-    const res = getAuthors();
-    expect(res.length).to.eqls(10);
+    const actualNumberOfAuthors = getAuthors().length;
+    const expectedNumberOfAuthors = 10;
+    expect(actualNumberOfAuthors).to.eqls(expectedNumberOfAuthors);
   });
 });
