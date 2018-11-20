@@ -27,6 +27,5 @@ myFavouriteAuthors = {
 ```
 
 **Accessing elements from the above object** 
-[Method 1](/naiveApproach.js)
-
-
+[Without iterators](/src/naiveApproach.js),
+[Converting object to make use of iterator](/src/iterators.js).
